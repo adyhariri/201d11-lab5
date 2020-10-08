@@ -30,12 +30,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+var multiResult = a*b;
+return[multiResult,`The product of ${a} and ${b} is ${multiResult}.`];
 }
 
 // Here is the test for multiply(); uncomment it to run it
 //5,9
-// testMultiply();
+console.log(`${multiply(3,6)}`);
+ testMultiply();
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
